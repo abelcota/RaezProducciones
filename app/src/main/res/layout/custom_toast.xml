@@ -15,7 +15,7 @@
         android:drawablePadding="10dp"
         android:gravity="center_vertical"
         android:padding="5dp"
-        android:textColor="#c0392b"
+        android:textColor="#1a1a1a"
         android:textSize="15sp" />
 
 </RelativeLayout>

@@ -23,14 +23,14 @@
         android:textColor="@color/tabsScrollColor2"/>
 
     <TextView
-        android:id="@+id/descripcion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/nombre"
-        android:layout_below="@+id/nombre"
-        android:text="txt"
-        android:textSize="16sp"
-        android:textColor="@color/background_color"/>
+    android:id="@+id/descripcion"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/nombre"
+    android:layout_below="@+id/nombre"
+    android:text="txt"
+    android:textSize="16sp"
+    android:textColor="@color/background_color"/>
 
     <TextView
         android:id="@+id/precio"

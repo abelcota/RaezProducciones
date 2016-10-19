@@ -179,13 +179,13 @@ public class Login_Fragment extends Fragment implements OnClickListener {
 				|| getPassword.equals("") || getPassword.length() == 0) {
 			loginLayout.startAnimation(shakeAnimation);
 			new CustomToast().Show_Toast(getActivity(), view,
-					"Enter both credentials.");
+					"Ingrese su correo y contraseña.");
 
 		}
 		// Check if email id is valid or not
 		else if (!m.find())
 			new CustomToast().Show_Toast(getActivity(), view,
-					"Your Email Id is Invalid.");
+					"El email es invalido.");
 		// Else do login and do your stuff
 		else
 		{
@@ -249,6 +249,7 @@ public class Login_Fragment extends Fragment implements OnClickListener {
 								"Inicio Sesión Correctamente.");
 						//abrir home activity
 						Intent intent = new Intent(getContext(), HomeActivity.class);
+						intent.putExtra("email_id",emailid.getText().toString());
 						startActivity(intent);
 						getActivity().finish();
 

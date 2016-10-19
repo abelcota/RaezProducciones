@@ -25,7 +25,7 @@ import java.util.List;
  */
 public class Tab1 extends Fragment implements LoadJSONTask.Listener {
     private ListView mListView;
-    public static final String URL = "http://raezproducciones.com/sistema/php/get_paquetes.php";
+    public static final String URL = "http://raezproducciones.com/sistema/php/get_paquetes.php?email="+HomeActivity.email_id;
     private List<HashMap<String, String>> mAndroidMapList = new ArrayList<>();
     private static final String KEY_ID = "id_paquetes";
     private static final String KEY_NOMBRE = "nombre";

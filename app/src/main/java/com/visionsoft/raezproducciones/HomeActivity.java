@@ -16,11 +16,14 @@ public class HomeActivity extends ActionBarActivity {
     CharSequence Titles[]={"Paquetes","Pagos"};
     int Numboftabs =2;
 
+    public static String email_id;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        email_id = getIntent().getExtras().getString("email_id","0");
 
         // Creating The Toolbar and setting it as the Toolbar for the activity
 
@@ -28,7 +31,8 @@ public class HomeActivity extends ActionBarActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
         getSupportActionBar().setLogo(R.drawable.logo_raez_w);
-        getSupportActionBar().setDisplayShowTitleEnabled(false); //optional
+        //getSupportActionBar().setDisplayShowTitleEnabled(true); //optional
+        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
 
 
         // Creating The ViewPagerAdapter and Passing Fragment Manager, Titles fot the Tabs and Number Of Tabs.

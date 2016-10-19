@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="2dp"
+    >
+    <ImageView
+        android:id="@+id/money_icon"
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+        android:paddingTop="1dp"
+        android:paddingLeft="1dp"
+        android:src="@drawable/ic_editor_attach_money" />
+
+    <TextView
+        android:id="@+id/abono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@+id/money_icon"
+        android:paddingBottom="5dp"
+        android:text="500.00"
+        android:textSize="25sp"
+        android:textColor="@color/precios"/>
+
+    <TextView
+        android:id="@+id/fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10/05/2015"
+        android:textSize="16sp"
+        android:textColor="@color/background_color"
+        android:layout_alignBottom="@+id/calendar_icon"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/letras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/abono"
+        android:layout_below="@+id/abono"
+        android:text="QUINIENTOS PESOS"
+        android:textSize="15sp"
+        android:textColor="@color/background_color"/>
+
+    <ImageView
+        android:id="@+id/calendar_icon"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:paddingLeft="1dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/ic_action_today"
+        android:paddingRight="10dp"
+        android:layout_marginEnd="71dp"
+        android:layout_alignTop="@+id/abono"
+        android:layout_alignParentEnd="true" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/background_color" />
+</RelativeLayout>
