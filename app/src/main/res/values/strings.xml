@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Raez Producciones</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="passowrd">Contraseña</string>
+    <string name="login">Acceder</string>
+    <string name="show_pwd">Mostrar contraseña</string>
+    <string name="hide_pwd">Ocultar contraseña</string>
+    <string name="forgot">¿olvidaste tu contraseña?</string>
+    <string name="closebutton">Cerrar</string>
+    <string name="newUser">Registrate aquí.</string>
+    <string name="fullName">Nombre Completo</string>
+    <string name="mobileNumber">Telefono</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirmar contraseña</string>
+    <string name="terms_conditions">Al registrarte estas aceptando los terminos y condiciones.</string>
+    <string name="signUp">Registrar</string>
+    <string name="already_user">¿ya tienes cuenta? accede aquí.</string>
+    <string name="registered_emailid">Por favor ingresa tu Correo debajo:</string>
+    <string name="submit">Enviar</string>
+    <string name="back">Atras</string>
+
+</resources>

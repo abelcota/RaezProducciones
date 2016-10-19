@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#570e0b</color>
+    <color name="colorPrimaryDark">#410b08</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background_color">#373435</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+    <color name="tabsScrollColor">#FFFFFF</color>
+    <color name="tabsScrollColor2">#8a140e</color>
+    <color name="precios">#009933</color>
+
+</resources>
